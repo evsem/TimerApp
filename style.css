@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px 0px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperTimer {
+  width: 600px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_itemTimer__style {
+  text-align: center;
+}
+
+.box_itemTimer__days {
+}
+
+.itemTimer_value {
+  font-size: 28px;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.itemTimer_title {
+}
+
+.box_itemTimer__hours {
+}
+
+.box_itemTimer__minutes {
+}
+
+.box_itemTimer__seconds {
+}
