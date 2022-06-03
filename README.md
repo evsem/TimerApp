@@ -1,3 +1,5 @@
 # Timer App
 
-_Description:_
+**Description:**
+
+Таймер обратного отсчёта. Реализован при помощи [ванильного JS](main.js), HTML и CSS.
