@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 *::after,
@@ -13,15 +13,24 @@
 
 body {
   padding: 16px 0px;
-  background-color: whitesmoke;
+  background-color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #8437a1;
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 .wrapperTimer {
-  width: 600px;
-  padding: 10px;
+  width: 720px;
+  padding: 16px;
   background-color: lightgrey;
   border-radius: 4px;
   display: flex;

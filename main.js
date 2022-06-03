@@ -1,18 +1,18 @@
 //DOMContentLoaded - только при первичной загрузке сайта
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   //Устанавливаем дату, до которой будет работать таймер
-  const newDate = new Date('Apr 1 2022 00:00:00')
+  const newDate = new Date("Aug 1 2022 00:00:00")
 
   //Получаем статичные значения через классы
-  let daysVal = document.querySelector('.box_itemTimer__days .itemTimer_value')
+  let daysVal = document.querySelector(".box_itemTimer__days .itemTimer_value")
   let hoursVal = document.querySelector(
-    '.box_itemTimer__hours .itemTimer_value'
+    ".box_itemTimer__hours .itemTimer_value"
   )
   let minutesVal = document.querySelector(
-    '.box_itemTimer__minutes .itemTimer_value'
+    ".box_itemTimer__minutes .itemTimer_value"
   )
   let secondsVal = document.querySelector(
-    '.box_itemTimer__seconds .itemTimer_value'
+    ".box_itemTimer__seconds .itemTimer_value"
   )
 
   //Сама функция отсчёта времени
